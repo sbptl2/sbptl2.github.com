@@ -5,12 +5,11 @@ h1 {
   color: white;
   font-size: 6em;
   text-align: center;
-  font-family: Lobster, cursive;
   clear: both;
+  font-family: Lobster, cursive;
 }
 .info {
   margin: auto;
-  border-radius:.5em;
   width: 40%;
   height: 100px;
   color: white;
@@ -18,16 +17,15 @@ h1 {
   font-size: 2em;
   font-family: Rancho , cursive;
 }
-li {
+.menuitem {
   display: inline;
-  list-style-type: none;
   margin-left: 1em;
+  font-size: 1em;
 }
 #menu {
   float: right;
   color: white;
   font-family: Frijole, cursive;
-  margin-right: 3em;
 }
 a {
   text-decoration: none;
@@ -35,4 +33,24 @@ a {
 }
 a:hover {
   color: red;
+}
+li {
+  list-style-type: none;
+}
+span {
+  text-align: right;
+  float: right;
+  margin-right: 3em;
+}
+.resume {
+  margin: auto;
+  width: 60%;
+  height: 100px;
+  color: white;
+  text-align: left;
+  font-size: 2em;
+  font-family: Rancho , cursive;
+}
+em {
+  font-size: .8em;
 }
