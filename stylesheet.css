@@ -1,56 +1,47 @@
 body {
-  background-image: url("background.png");
-}
-h1 {
-  color: white;
-  font-size: 6em;
-  text-align: center;
-  clear: both;
-  font-family: Lobster, cursive;
-}
-.info {
-  margin: auto;
-  width: 40%;
-  height: 100px;
-  color: white;
-  text-align:center;
-  font-size: 2em;
-  font-family: Rancho , cursive;
-}
-.menuitem {
-  display: inline;
-  margin-left: 1em;
-  font-size: 1em;
-}
-#menu {
-  float: right;
-  color: white;
-  font-family: Frijole, cursive;
+    background-image: url("background.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin:0;
+    padding:0;
+    min-width: 12em;
 }
 a {
-  text-decoration: none;
-  color: inherit;
+    text-decoration: none;
+    color: black;
 }
 a:hover {
-  color: red;
+    color:red;
 }
-li {
-  list-style-type: none;
+.menuitem {
+    float:right;
+    margin-right:3vw;
+    margin-top:1vw;
+    display: inline-block;
+    text-align: center;
+    list-style-type:none;
+    font-family: Montserrat, sans-serif;
+    font-size:1.25vw;
 }
-span {
-  text-align: right;
-  float: right;
-  margin-right: 3em;
+#final {
+    margin-right:5vw;
 }
-.resume {
-  margin: auto;
-  width: 60%;
-  height: 100px;
-  color: white;
-  text-align: left;
-  font-size: 2em;
-  font-family: Rancho , cursive;
+#title {
+    text-align: center;
+    right:0;
+    margin-right:10vw;
+    margin-top:20vh;
+    position:absolute;
 }
-em {
-  font-size: .8em;
+
+h1 {
+    font-size: 7vw;
+    margin:0;
+    font-family: Lobster, cursive;
+}
+h2 {
+    margin:0;
+    font-size: 2vw;
+    font-family: Inconsolata, serif;
 }
