@@ -5,14 +5,56 @@ body {
     background-attachment: fixed;
     margin:0;
     padding:0;
-    min-width: 12em;
+    min-width: 60em;
+    min-height:60em;
+}
+h1 {
+    font-size: 7vw;
+    margin:0;
+    font-family: Lobster, cursive;
+}
+h2 {
+    font-size: 2vw;
+    margin:0;
+    font-family: Inconsolata, serif;
 }
 a {
     text-decoration: none;
     color: black;
 }
-a:hover {
+ul a:hover {
     color:red;
+}
+h3 {
+    font-size:1.5vw;
+    margin:0;
+}
+p {
+    font-size: 1.2em;
+    position:relative;
+}
+table {
+    position:relative;
+    float:right;
+    margin-left:20vw;
+}
+span {
+    color: rgba(100,100,100,1);
+}
+li {
+    list-style-type: none;
+    padding-bottom:.2vw;
+}
+.bubblelist {
+    list-style-position: outside;
+    padding:0;
+    font-size:1.2em;
+    color: white;
+    font-family:Playfair Display, serif;
+}
+.bubbleheading {
+    font-size:2vw;
+    color:white;
 }
 .menuitem {
     float:right;
@@ -24,24 +66,71 @@ a:hover {
     font-family: Montserrat, sans-serif;
     font-size:1.25vw;
 }
-#final {
-    margin-right:5vw;
+.pagetitle {
+    text-align: center;
+    left: 1vw;
+    top: 15vh;
+    position:fixed;
+    color: white;
+    font-size: 1vw;
+}
+.pagetitle h1 {
+    font-size: 5vw;
+}
+.circle {
+    width: 15vh;
+    height: 15vh;
+    margin-bottom:1vh;
+    margin-top: 1vh;
+    border-radius: 50%;
+}
+.bubble {
+    width: 30vh;
+    height:30vh;
+    border-radius: 50%;
+    padding: 1.1vw;
+    position: absolute;
+    text-align: center;
+    background-color: rgba(100,100,100,.5);
+}
+.icon {
+    height: 5vw;
+    margin:0;
+    padding:0;
+}
+.info {
+    width: 53vw;
+    height: 35vw;
+    top: 10vh;
+    right:2vw;
+    position:fixed;
+}
+.iconarea {
+    width: 40vw;
+    height: 35vw;
+    top: 10vh;
+    right:2vw;
+    position:fixed;
+}
+.fullicon {
+    margin-top: 3vw;
+    height: 8vw;
+    width:11vw;
+    align-content: center;
+    text-align: center;
+    font-family: Montserrat, sans-serif;
 }
 #title {
     text-align: center;
-    right:0;
-    margin-right:10vw;
-    margin-top:20vh;
-    position:absolute;
+    right: 10vw;
+    top: 20vh;
+    position:fixed;
 }
-
-h1 {
-    font-size: 7vw;
-    margin:0;
-    font-family: Lobster, cursive;
+#final {
+    margin-right:5vw;
 }
-h2 {
-    margin:0;
-    font-size: 2vw;
-    font-family: Inconsolata, serif;
+#about {
+    color: white;
+    font-size:1.25em;
+    font-family:Playfair Display, serif;
 }
