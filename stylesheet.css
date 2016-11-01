@@ -46,7 +46,7 @@ li {
 .bubblelist {
     list-style-position: outside;
     padding:0;
-    font-size:1.2em;
+    font-size:2vh;
     color: white;
     font-family:Playfair Display, serif;
 }
@@ -129,6 +129,6 @@ li {
 }
 #about {
     color: white;
-    font-size:1.25em;
+    font-size:2vh;
     font-family:Playfair Display, serif;
 }
